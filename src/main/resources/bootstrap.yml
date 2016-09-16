@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: simple-app-with-config-client
+  cloud:
+    config:
+      enabled: true
+      label: master
+      name: greeting-service
